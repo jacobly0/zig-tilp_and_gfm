@@ -8,13 +8,13 @@
         "README.md",
     },
     .dependencies = .{
+        .tilibs = .{
+            .hash = "1220b09c23fb88c6905add37534e6ca332cb3307877a13e6440c1b23f34e6308b832",
+            .url = "git+https://github.com/jacobly0/zig-tilibs.git#522b01fa6ac0f3823d385d261c4470fef179c4ca",
+        },
         .tilp_and_gfm = .{
             .hash = "1220c86b0e5b2a52da9f15b6843d16a81f989e80353136748ed1002c5b5d4575de00",
             .url = "git+https://github.com/jacobly0/tilp_and_gfm.git#6d1e00fa9e82d11d42a6abc7520a974326d376ec",
-        },
-        .tilibs = .{
-            .hash = "12202033d17b8564dca80af7aaa44c9eb7adbcf4043d05d1e29b6aa0991e0ee58893",
-            .url = "git+https://github.com/jacobly0/zig-tilibs.git#c7785a8901abc991b771b573cced0fc34925404c",
         },
     },
 }

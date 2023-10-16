@@ -69,7 +69,6 @@ pub fn build(b: *std.Build) void {
             "tilp/trunk/src/tilp_vars.c",
             "tilp/trunk/src/toolbar.c",
         },
-        .flags = &.{},
     });
     for ([_][]const u8{
         "pixmaps", "help", "icons", "builder", "desktop",
