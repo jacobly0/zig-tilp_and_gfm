@@ -9,8 +9,8 @@
     },
     .dependencies = .{
         .tilibs = .{
-            .hash = "1220b09c23fb88c6905add37534e6ca332cb3307877a13e6440c1b23f34e6308b832",
-            .url = "git+https://github.com/jacobly0/zig-tilibs.git#522b01fa6ac0f3823d385d261c4470fef179c4ca",
+            .hash = "122008026ef831a82d41ff8b4c1eb26d9d50184084c5e5c355c921b81afe770ae571",
+            .url = "git+https://github.com/jacobly0/zig-tilibs.git#a0088fab3ba37d911725d53335a262318b389fc1",
         },
         .tilp_and_gfm = .{
             .hash = "1220c86b0e5b2a52da9f15b6843d16a81f989e80353136748ed1002c5b5d4575de00",

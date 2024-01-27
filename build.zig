@@ -23,7 +23,7 @@ pub fn build(b: *std.Build) void {
         b.getInstallPath(.{ .custom = "share" }, ""),
     }));
     tilp.defineCMacro("VERSION", "\"1.19\"");
-    tilibs_build.defineOsMacros(tilp);
+    tilibs_build.defineOsMacros(tilp, target.result);
     tilp.addCSourceFiles(.{
         .dependency = upstream,
         .files = &.{
